@@ -1,3 +1,57 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+}
+
+.header-name {
+    background: #FFF8F3;
+    background-image: url('header_bg.png');
+}
+
+.nav-head {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+nav li {
+    margin-left: 30px;
+
+
+}
+
+nav li a {
+    text-decoration: none;
+
+
 }
