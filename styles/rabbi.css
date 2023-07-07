@@ -16,6 +16,28 @@ body {
     padding: 18px 35px;
 }
 
+.section-titel {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-desc {
+    display: flex;
+    width: 827px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color:  #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+}
+
 .text-color {
     color: #FD6E0A;
     background: #fff;
@@ -75,10 +97,10 @@ nav li a {
 
 }
 
-.header-sct  p {
+.header-sct p {
     margin-top: 0;
     margin-bottom: 30px;
-  
+
 }
 
 .imges img {
@@ -95,11 +117,35 @@ nav li a {
     line-height: normal;
     margin-bottom: 0;
 }
-.h1{
+
+.h1 {
     color: #474747;
     font-family: Open Sans;
     font-size: 85px;
     font-weight: 800;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+
+/* about section */
+.about {
+    padding: 50px 100px;
+    width: 1140px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+    text-align: center;
+    margin: 140px auto;
+}
+main{
+  
+
+}
+.about-infu{
+    display: flex;
+    justify-content: space-around;
+}
+.skill-continer{
+    display: flex;
 }
